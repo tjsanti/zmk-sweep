@@ -64,28 +64,28 @@
                 
        		default_layer {
 		bindings = <
-		&kp Q &kp W &kp E &kp R &kp T 						&kp Y &kp U  &kp I    &kp O   &kp P 
-		&kp A &kp S &kp D &kp F &kp G 			        	        &kp H &kp J &kp K &kp L &kp QUOT
-		&mt LSFT Z &kp X &kp C &kp V &kp B				        &kp N &kp M  &kp CMMA &kp DOT &mt LSFT RET
-          				&mo 1 &kp LCTL  				&kp SPC &mo 2 
+		&kp Q &kp W &kp F &kp P &kp B 						       &kp J &kp L  &kp U    &kp Y   &kp SEMI 
+		&kp A &mt LALT R &mt LCTRL S &mt LGUI T &kp G 			   &kp M &mt RGUI N &mt RCTRL E &mt RALT I &kp O
+		&kp Z &kp X &kp C &kp V &kp B				               &kp N &kp M  &kp CMMA &kp DOT &kp MINUS
+          				&kp SPACE &kp RET  				&kp RSHIFT &to 1 
 		>;
 		};
 
        		left_layer {
 		bindings = <
-		&kp NUM_1  &kp NUM_2    &kp NUM_3    &kp NUM_4    &kp NUM_5		&kp NUM_6 &kp NUM_7 &kp NUM_8 &kp NUM_9 &kp NUM_0 
-		&kp TAB    &kp LC(S)    &kp DQT      &kp PIPE2     &kp HASH 		&kp MINUS &kp EQL  &kp LBKT &kp RBKT  &kp DEL 
-		&kp ESC    &kp TILDE 	&kp NON_US_BSLH &kp NON_US_HASH  &kp TILDE2 	&kp MINUS &kp GRAVE &kp LBKT &kp RBKT  &kp DEL 
-					    &mo 1  &kp LGUI  					&kp RGUI &mo 2 
+		&kp TILDE   &kp EXCL    &kp MINUS   &kp PLUS    &kp DOWN		       &kp UP &kp STAR &kp FSLH &kp EQUAL &kp NUM_0 
+		&kp AMPS &mt LALT LBRC &mt LCTRL LBKT &mt LGUI LPAR &kp LT 			   &kp GT &mt RGUI RPAR &mt RCTRL RBKT &mt RALT RBRC &kp PIPE
+		&kp BSLH    &trans 	&trans &trans  &kp LEFT 	                       &kp RIGHT &trans &trans &kp QMARK &kp DEL 
+					                    &to 0  &kp SPC                         &trans &to 2 
 		>;
 		};
 		
 		right_layer {
 		bindings = <
-		&kp BANG  &kp ATSN &kp HASH  &kp DLLR  &kp PRCT    			&kp CRRT  &kp AMPS &kp KMLT &kp LPRN &kp RPRN 
-		&kp HASH  &kp QMARK  &kp FSLH  &kp COLN  &kp SCLN 			&kp MINUS &kp KP_EQUAL  &kp LBRC  &kp RBRC   &kp BKSP
-		&kp LSFT  &kp KPLS &kp LBKT &kp RBKT   &kp BSLH    			&kp UNDER &kp LEFT &kp DOWN &kp UP  &kp RIGHT
-					  &mo 3 &kp LCTL  				&kp SPC  &mo 2 
+		&trans  &trans &trans  &trans  &trans    			&trans  &trans &trans &trans &trans 
+		&kp N1  &mt LALT N2 &mt LCTRL N3 &mt LGUI N4 &kp N5 		&kp N6 &mt RGUI N7 &mt RCTRL N8 &mt RALT N9 &kp N0
+		&trans  &trans &trans &trans   &trans    			&trans &trans &trans &trans  &trans
+					                    &to 1 &trans  				&kp RSHIFT  &mo 3 
 		>;
 		};	
 		
