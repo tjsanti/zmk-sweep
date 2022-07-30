@@ -11,7 +11,7 @@
 
 &mt {
   //  flavor = "tap-preferred";
-   // tapping_term_ms = <200>;
+   // tapping_term_ms = <230>;
 };
 
 / { 
@@ -24,10 +24,10 @@
             bindings = <&kp ESC>;
         };
         
-         combo_bspc {
+         combo_tab {
             timeout-ms = <50>;
             key-positions = <10 11>;
-            bindings = <&kp BSPC>;
+            bindings = <&kp TAB>;
         };
         
             combo_ralt {
@@ -66,7 +66,7 @@
 		bindings = <
 		&kp Q &kp W &kp F &kp P &kp B 						       &kp J &kp L  &kp U    &kp Y   &kp SEMI 
 		&kp A &mt LALT R &mt LCTRL S &mt LGUI T &kp G 			   &kp M &mt RGUI N &mt RCTRL E &mt RALT I &kp O
-		&kp Z &kp X &kp C &kp V &kp B				               &kp N &kp M  &kp CMMA &kp DOT &kp MINUS
+		&kp Z &kp X &kp C &kp D &kp V				               &kp K &kp H  &kp CMMA &kp DOT &kp MINUS
           				&kp SPACE &kp RET  				&kp RSHIFT &to 1 
 		>;
 		};
@@ -75,8 +75,8 @@
 		bindings = <
 		&kp TILDE   &kp EXCL    &kp MINUS   &kp PLUS    &kp DOWN		       &kp UP &kp STAR &kp FSLH &kp EQUAL &kp NUM_0 
 		&kp AMPS &mt LALT LBRC &mt LCTRL LBKT &mt LGUI LPAR &kp LT 			   &kp GT &mt RGUI RPAR &mt RCTRL RBKT &mt RALT RBRC &kp PIPE
-		&kp BSLH    &trans 	&trans &trans  &kp LEFT 	                       &kp RIGHT &trans &trans &kp QMARK &kp DEL 
-					                    &to 0  &kp SPC                         &trans &to 2 
+		&kp BSLH    &trans 	&trans &trans  &kp LEFT 	                       &kp RIGHT &kp APOS &trans &kp QMARK &kp DEL 
+					                    &to 0  &kp BSPC                         &trans &to 2 
 		>;
 		};
 		
