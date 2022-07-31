@@ -10,8 +10,8 @@
 
 
 &mt {
-  //  flavor = "tap-preferred";
-   // tapping_term_ms = <230>;
+    flavor = "tap-preferred";
+    tapping_term_ms = <230>;
 };
 
 / { 
@@ -76,7 +76,7 @@
 		&kp TILDE   &kp EXCL    &kp MINUS   &kp PLUS    &kp DOWN		       &kp UP &kp STAR &kp FSLH &kp EQUAL &kp NUM_0 
 		&kp AMPS &mt LALT LBRC &mt LCTRL LBKT &mt LGUI LPAR &kp LT 			   &kp GT &mt RGUI RPAR &mt RCTRL RBKT &mt RALT RBRC &kp PIPE
 		&kp BSLH    &trans 	&trans &trans  &kp LEFT 	                       &kp RIGHT &kp APOS &trans &kp QMARK &kp DEL 
-					                    &to 0  &kp BSPC                         &trans &to 2 
+					                    &to 0  &kp BKSP                        &trans &to 2 
 		>;
 		};
 		
