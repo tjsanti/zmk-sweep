@@ -85,7 +85,7 @@
 		&trans  &trans &trans  &trans  &trans    			&trans  &trans &trans &trans &mo 3 
 		&kp N1  &mt LALT N2 &mt LCTRL N3 &mt LGUI N4 &kp N5 		&kp N6 &mt RGUI N7 &mt RCTRL N8 &mt RALT N9 &kp N0
 		&trans  &trans &trans &trans   &trans    			&trans &trans &trans &trans  &trans
-					                    &to 0 &trans  				&kp RSHIFT  &to 1 
+					                &trans &to 0   				&to 1 &kp RSHIFT   
 		>;
 		};	
 		
