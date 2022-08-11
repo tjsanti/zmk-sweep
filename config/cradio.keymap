@@ -18,38 +18,38 @@
 
     combos {
         compatible = "zmk,combos";
-        combo_esc {
+        combo_tab {
             timeout-ms = <50>;
             key-positions = <0 1>;
-            bindings = <&kp ESC>;
-        };
-        
-         combo_tab {
-            timeout-ms = <50>;
-            key-positions = <10 11>;
             bindings = <&kp TAB>;
         };
         
-            combo_ralt {
+        combo_bspc {
             timeout-ms = <50>;
-            key-positions = <17 16>;
-            bindings = <&kp RALT>;
+            key-positions = <10 11>;
+            bindings = <&kp BSPC>;
         };
         
-                    combo_lalt {
+        combo_apos {
+            timeout-ms = <50>;
+            key-positions = <18 19>;
+            bindings = <&kp APOS>;
+        };
+        
+        combo_lalt {
             timeout-ms = <50>;
             key-positions = <11 12>;
             bindings = <&kp LALT>;
         };
         
-                           combo_lgui {
+        combo_lgui {
             timeout-ms = <50>;
             key-positions = <12 13>;
             bindings = <&kp LGUI>;
         };
         
         
-           combo_rgui {
+        combo_rgui {
             timeout-ms = <50>;
             key-positions = <17 18>;
             bindings = <&kp RGUI>;
@@ -67,7 +67,7 @@
 		&kp Q &kp W &kp F &kp P &kp B 						       &kp J &kp L  &kp U    &kp Y   &kp SEMI 
 		&kp A &mt LALT R &mt LCTRL S &mt LGUI T &kp G 			   &kp M &mt RGUI N &mt RCTRL E &mt RALT I &kp O
 		&kp Z &kp X &kp C &kp D &kp V				               &kp K &kp H  &kp CMMA &kp DOT &kp MINUS
-          				&kp SPACE &kp RET  				&kp RSHIFT &to 1 
+          				&kp RET &kp SPACE  				&to 1 &kp RSHIFT  
 		>;
 		};
 
@@ -76,7 +76,7 @@
 		&kp TILDE   &kp EXCL    &kp MINUS   &kp PLUS    &kp DOWN		       &kp UP &kp STAR &kp FSLH &kp EQUAL &kp NUM_0 
 		&kp AMPS &mt LALT LBRC &mt LCTRL LBKT &mt LGUI LPAR &kp LT 			   &kp GT &mt RGUI RPAR &mt RCTRL RBKT &mt RALT RBRC &kp PIPE
 		&kp BSLH    &trans 	&trans &trans  &kp LEFT 	                       &kp RIGHT &kp APOS &trans &kp QMARK &kp DEL 
-					                    &to 0  &kp BACKSPACE                        &trans &to 2 
+					                    &kp BSPC &to 0                    &to 2 &trans 
 		>;
 		};
 		
