@@ -76,7 +76,7 @@
 		&kp TILDE   &kp EXCL    &kp MINUS   &kp PLUS    &kp DOWN		       &kp UP &kp STAR &kp FSLH &kp EQUAL &kp NUM_0 
 		&mt LCTRL AMPS &mt LALT LBRC &mt LGUI LBKT &mt LSHFT LPAR &kp LT 			   &kp GT &mt RSHFT RPAR &mt RGUI RBKT &mt RALT RBRC &mt RCTRL PIPE
 		&kp BSLH    &trans 	&trans &trans  &kp LEFT 	                       &kp RIGHT &kp APOS &trans &kp QMARK &kp DEL 
-					                    &kp BSPC &to 0                    &to 2 &trans 
+					                    &trans &to 0                    &to 2 &trans 
 		>;
 		};
 		
