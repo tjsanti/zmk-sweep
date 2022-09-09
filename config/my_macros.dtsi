@@ -1,0 +1,9 @@
+macros {
+
+    ZMK_MACRO(
+        digraph_wh,
+        wait-ms = <30>;
+        tap-ms = <30>;
+        bindings = <&kp W &kp H>;
+    )
+};
