@@ -1,0 +1,17 @@
+behaviors {
+    CmmaSemi: CmmaSemi {
+        compatible = "zmk,behavior-mod-morph";
+        label = "comma_semi";
+        #binding-cells = <0>;
+        bindings = <&kp CMMA>, <&kp SEMI>;
+        mods = <MOD_LSFT>;
+    };
+
+    DotColn: DotColn {
+        compatible = "zmk,behavior-mod-morph";
+        label = "dot_colon";
+        #binding-cells = <0>;
+        bindings = <&kp DOT>, <&kp COLON>;
+        mods = <MOD_LSFT>;
+    };
+};
