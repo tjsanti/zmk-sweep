@@ -4,7 +4,7 @@ behaviors {
         label = "comma_semi";
         #binding-cells = <0>;
         bindings = <&kp CMMA>, <&kp SEMI>;
-        mods = <MOD_LSFT>;
+        mods = <(MOD_LSFT|MOD_RSFT)>;
     };
 
     DotColn: DotColn {
@@ -12,6 +12,6 @@ behaviors {
         label = "dot_colon";
         #binding-cells = <0>;
         bindings = <&kp DOT>, <&kp COLON>;
-        mods = <MOD_LSFT>;
+        mods = <(MOD_LSFT|MOD_RSFT)>;
     };
 };
