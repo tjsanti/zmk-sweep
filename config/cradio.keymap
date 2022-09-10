@@ -39,7 +39,7 @@
        	default_layer {
 			bindings = <
 				&trans &kp W &kp M &kp G &trans 						       &trans &DotColn  &kp K    &kp J   &trans
-				&mt LCTRL R &mt LALT S &mt LGUI N &mt LSHFT T &kp P 			   &CmmaSemi &mt RSHFT A &mt RGUI E &mt RALT I &mt RCTRL H
+				&hml LCTRL R &hml LALT S &hml LGUI N &hmls LSHFT T &kp P 			   &CmmaSemi &hmrs RSHFT A &hmr RGUI E &hmr RALT I &hmr RCTRL H
 				&kp L &kp C &kp V &kp D &kp B				               &kp X &kp O  &kp U &kp Y &kp F
 								&kp RET &kp SPACE  				&to SYM &kp RSHIFT  
 			>;
@@ -48,7 +48,7 @@
 		sym_layer {
 			bindings = <
 				&kp TILDE   &kp EXCL    &kp MINUS   &kp PLUS    &kp DOWN		       &kp UP &kp STAR &kp FSLH &kp EQUAL &kp NUM_0 
-				&mt LCTRL AMPS &mt LALT LBRC &mt LGUI LBKT &mt LSHFT LPAR &kp LT 			   &kp GT &mt RSHFT RPAR &mt RGUI RBKT &mt RALT RBRC &mt RCTRL PIPE
+				&hml LCTRL AMPS &hml LALT LBRC &hml LGUI LBKT &hmls LSHFT LPAR &kp LT 			   &kp GT &hmrs RSHFT RPAR &hmr RGUI RBKT &hmr RALT RBRC &hmr RCTRL PIPE
 				&kp BSLH    &trans 	&trans &trans  &kp LEFT 	                       &kp RIGHT &kp APOS &trans &kp DEL &kp QMARK 
 												&trans &to DEFAULT                    &to NUM &trans 
 			>;
@@ -57,7 +57,7 @@
 		num_layer {
 			bindings = <
 				&trans  &trans &trans  &trans  &trans    			&trans  &trans &trans &trans &to SETUP 
-				&mt LCTRL N1  &mt LALT N2 &mt LGUI N3 &mt LSHFT N4 &kp N5 		&kp N6 &mt RSHFT N7 &mt RGUI N8 &mt RALT N9 &mt RCTRL N0
+				&hml LCTRL N1  &hml LALT N2 &hml LGUI N3 &hmls LSHFT N4 &kp N5 		&kp N6 &hmrs RSHFT N7 &hmr RGUI N8 &hmr RALT N9 &hmr RCTRL N0
 				&trans  &trans &trans &trans   &trans    			&trans &trans &trans &trans  &trans
 											&trans &to DEFAULT   				&to SYM &kp RSHIFT   
 			>;
@@ -75,7 +75,7 @@
        	alt_alpha_layer {
 			bindings = <
 				&kp Q &kp W &kp F &kp P &kp B 						       &kp J &kp L  &kp U    &kp Y   &kp SEMI
-				&mt LCTRL A &mt LALT R &mt LGUI S &mt LSHFT T &kp G 			   &kp M &mt RSHFT N &mt RGUI E &mt RALT I &mt RCTRL O
+				&hml LCTRL A &hml LALT R &hml LGUI S &hmls LSHFT T &kp G 			   &kp M &hmrs RSHFT N &hmr RGUI E &hmr RALT I &hmr RCTRL O
 				&kp Z &kp X &kp C &kp D &kp V				               &kp K &kp H  &kp CMMA &kp DOT &kp MINUS
 								&kp RET &kp SPACE  				&to ALT_SYM &kp RSHIFT  
 			>;
@@ -84,7 +84,7 @@
 		alt_sym_layer {
 			bindings = <
 				&kp TILDE   &kp EXCL    &kp MINUS   &kp PLUS    &kp DOWN		       &kp UP &kp STAR &kp FSLH &kp EQUAL &kp NUM_0 
-				&mt LCTRL AMPS &mt LALT LBRC &mt LGUI LBKT &mt LSHFT LPAR &kp LT 			   &kp GT &mt RSHFT RPAR &mt RGUI RBKT &mt RALT RBRC &mt RCTRL PIPE
+				&hml LCTRL AMPS &hml LALT LBRC &hml LGUI LBKT &hmls LSHFT LPAR &kp LT 			   &kp GT &hmrs RSHFT RPAR &hmr RGUI RBKT &hmr RALT RBRC &hmr RCTRL PIPE
 				&kp BSLH    &trans 	&trans &trans  &kp LEFT 	                       &kp RIGHT &kp APOS &trans &kp DEL &kp QMARK 
 												&trans &to ALT                    &to ALT_NUM &trans 
 			>;
@@ -93,7 +93,7 @@
 		alt_num_layer {
 			bindings = <
 				&trans  &trans &trans  &trans  &trans    			&trans  &trans &trans &trans &to SETUP 
-				&mt LCTRL N1  &mt LALT N2 &mt LGUI N3 &mt LSHFT N4 &kp N5 		&kp N6 &mt RSHFT N7 &mt RGUI N8 &mt RALT N9 &mt RCTRL N0
+				&hml LCTRL N1  &hml LALT N2 &hml LGUI N3 &hmls LSHFT N4 &kp N5 		&kp N6 &hmrs RSHFT N7 &hmr RGUI N8 &hmr RALT N9 &hmr RCTRL N0
 				&trans  &trans &trans &trans   &trans    			&trans &trans &trans &trans  &trans
 											&trans &to ALT   				&to ALT_SYM &kp RSHIFT   
 			>;
