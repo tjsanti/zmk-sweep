@@ -2,13 +2,13 @@
 ZMK_BEHAVIOR(CmmaSemi, mod_morph,
     bindings = <&kp CMMA>, <&kp SEMI>;
     mods = <(MOD_LSFT)>;
-    masked-mods = <(MOD_LSFT)>;
+    masked-mods = <MOD_LSFT>;
 )
 
 ZMK_BEHAVIOR(DotColn, mod_morph,
     bindings = <&kp DOT>, <&kp COLON>;
     mods = <(MOD_LSFT)>;
-    masked-mods = <(MOD_LSFT)>;
+    masked-mods = <MOD_LSFT>;
 )
 
 /* homerow mods */
