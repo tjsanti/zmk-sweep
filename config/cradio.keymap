@@ -26,9 +26,10 @@
     tapping_term_ms = <230>;
 };
 
+#include "my_behaviors.dtsi"
+
 / { 
 
-    #include "my_behaviors.dtsi"
 	#include "my_macros.dtsi"
 	#include "my_combos.dtsi"
 
