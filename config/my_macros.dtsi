@@ -2,7 +2,7 @@ macros {
 
     ZMK_MACRO(
         type_qu,
-        wait-ms = <30>;
+        wait-ms = <100>;
         tap-ms = <30>;
         bindings = <&kp Q &kp U>;
     )

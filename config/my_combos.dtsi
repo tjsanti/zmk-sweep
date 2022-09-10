@@ -11,8 +11,8 @@
 #undef COMBO_HOOK
 #define COMBO_HOOK global-quick-tap-ms = <125>;
 
-#define COMBO_TERM_FAST 20
-#define COMBO_TERM_SLOW 35
+#define COMBO_TERM_FAST 30
+#define COMBO_TERM_SLOW 45
 
 
 combos {
@@ -38,14 +38,14 @@ combos {
     };
 
     combo_Q {
-        timeout-ms = <COMBO_TERM_FAST>;
+        timeout-ms = <COMBO_TERM_SLOW>;
         key-positions = <28 29>;
         bindings = <&QQu>;
         layers = <DEFAULT>;
     };
 
     combo_Z {
-        timeout-ms = <COMBO_TERM_FAST>;
+        timeout-ms = <COMBO_TERM_SLOW>;
         key-positions = <20 21>;
         bindings = <&kp Z>;
         layers = <DEFAULT>;
