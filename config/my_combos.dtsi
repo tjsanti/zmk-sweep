@@ -8,6 +8,9 @@
 
 */
 
+#undef COMBO_HOOK
+#define COMBO_HOOK global-quick-tap-ms = <125>;
+
 combos {
     compatible = "zmk,combos";
 
