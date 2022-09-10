@@ -11,58 +11,62 @@
 #undef COMBO_HOOK
 #define COMBO_HOOK global-quick-tap-ms = <125>;
 
+#define COMBO_TERM_FAST 20
+#define COMBO_TERM_SLOW 35
+
+
 combos {
     compatible = "zmk,combos";
 
     combo_tab {
-        timeout-ms = <50>;
+        timeout-ms = <COMBO_TERM_FAST>;
         key-positions = <11 12>;
         bindings = <&kp TAB>;
     };
     
     combo_bspc {
-        timeout-ms = <50>;
+        timeout-ms = <COMBO_TERM_FAST>;
         key-positions = <10 11>;
         bindings = <&kp BSPC>;
     };
     
     combo_apos {
-        timeout-ms = <50>;
+        timeout-ms = <COMBO_TERM_FAST>;
         key-positions = <18 19>;
         bindings = <&kp APOS>;
         layers = <DEFAULT ALT>;
     };
 
     combo_Q {
-        timeout-ms = <50>;
+        timeout-ms = <COMBO_TERM_FAST>;
         key-positions = <28 29>;
         bindings = <&kp Q>;
         layers = <DEFAULT>;
     };
 
     combo_Z {
-        timeout-ms = <50>;
+        timeout-ms = <COMBO_TERM_FAST>;
         key-positions = <20 21>;
         bindings = <&kp Z>;
         layers = <DEFAULT>;
     };
     
     combo_caps_word {
-        timeout-ms = <50>;
+        timeout-ms = <COMBO_TERM_SLOW>;
         key-positions = <13 16>;
         bindings = <&caps_word>;
         layers = <DEFAULT ALT>;
     };
 
     combo_alt_alpha {
-        timeout-ms = <50>;
+        timeout-ms = <COMBO_TERM_SLOW>;
         key-positions = <3 4 5 6>;
         bindings = <&to ALT>;
         layers = <DEFAULT>;
     };
 
     combo_default_alpha {
-        timeout-ms = <50>;
+        timeout-ms = <COMBO_TERM_SLOW>;
         key-positions = <3 4 5 6>;
         bindings = <&to DEFAULT>;
         layers = <ALT>;
