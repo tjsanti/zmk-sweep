@@ -40,7 +40,7 @@ combos {
     combo_Q {
         timeout-ms = <COMBO_TERM_FAST>;
         key-positions = <28 29>;
-        bindings = <&kp Q>;
+        bindings = <&QQu>;
         layers = <DEFAULT>;
     };
 

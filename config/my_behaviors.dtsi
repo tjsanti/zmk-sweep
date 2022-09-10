@@ -1,14 +1,22 @@
 /* custom keys */
+// comma on tap, semicolon when shifted
 ZMK_BEHAVIOR(CmmaSemi, mod_morph,
     bindings = <&kp CMMA>, <&kp SEMI>;
     mods = <(MOD_LSFT)>;
     masked-mods = <MOD_LSFT>;
 )
 
+// period on tap, colon when shifted
 ZMK_BEHAVIOR(DotColn, mod_morph,
     bindings = <&kp DOT>, <&kp COLON>;
     mods = <(MOD_LSFT)>;
     masked-mods = <MOD_LSFT>;
+)
+
+// "qu" when tapped, "q" when holding alt
+ZMK_BEHAVIOR(QQu, mod_morph,
+    bindings = <&type_qu>, <&kp Q>;
+    mods = <(MOD_LALT)>;
 )
 
 /* homerow mods */
