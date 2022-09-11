@@ -37,6 +37,13 @@ combos {
         layers = <DEFAULT ALT>;
     };
 
+    combo_under {
+        timeout-ms = <COMBO_TERM_SLOW>;
+        key-positions = <15 25>;
+        bindings = <&kp UNDER>;
+        layers = <DEFAULT ALT>;
+    };
+
     combo_Q {
         timeout-ms = <COMBO_TERM_SLOW>;
         key-positions = <28 29>;
